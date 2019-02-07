@@ -1,0 +1,34 @@
+ls #list files
+pwd #print working directory
+cd #muda a pasta
+cp #copia um arquivo
+mv #move um arquivo
+mkdir #cria uma pasta
+rm #exclui arquivo
+rm -r #exclui diretório
+touch #creates a new file inside the directory
+stdin #is information inputted into the terminal through the keyboard or input device
+stdout #information outputted after a process is run
+stderr #is an error message outputted by a failed process
+> #redirect the standard output to a file #overwrites all original content (vai do x > y [x para y])
+>> #takes the standard output of the command on the left E ADICIONA it to the file on the right. Vai acrescentar
+cat #outputs the contents of a file to the terminal. When you type cat blabla.txt, the contents of blabla.txt are displayed
+< #takes the standard input from the file on the right and inputs it into the program on the left
+| (pipe) #command to command redirection
+sort #takes the standard input and orders it alphabetically for the standard output
+uniq #stands for "unique" and filters out adjacent, duplicate lines in a file
+grep #stands for global regular expression print. It searches 	files for lines that match a pattern and returns the results
+sed #stands for stream editor
+environment #refers to the preferences and settings of the current user
+~/.bash_profile #is where environment settings are stored
+export VARIABLE="Value" #sets and expoprts an environment variable
+USER #is the name of the current user
+PATH #returns a colon separated list of file paths. It is customized in advanced cases.
+env #returns a list of environment variables
+"bash script" #any command that can be run in the terminal can be run in a bash script
+#variables are assigned using an equals sign with no space (greeting="hello")
+#variables are accessed using a dollar sign (echo $greeting)
+#conditionals use if , then , else ,  fi syntax
+#three types of loops can be used: for , while , until
+#comparison operators: equal -eq // not equal -ne // less than or equal -le // less than -lt // greater than or equal -ge // greater than -gt // is null -z
+
